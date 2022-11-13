@@ -1,5 +1,6 @@
 import "./App.module.scss";
 import Navbar from "./components/Navbar/Navbar";
+import Comapnies from "./containers/Comapnies/Comapnies";
 import Header from "./containers/Header/Header";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <Comapnies />
     </div>
   );
 }
