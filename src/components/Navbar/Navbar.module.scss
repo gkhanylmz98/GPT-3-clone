@@ -1,0 +1,56 @@
+.gpt3_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+
+  .logo {
+    background-color: #ffff;
+  }
+
+  .gpt3_navbar_links {
+    ul {
+      display: flex;
+
+      li {
+        color: #ffff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: var(--font-family);
+        font-style: normal;
+        padding: 0 3rem;
+      }
+    }
+  }
+  .gpt3_navbar_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    p {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+      margin: 0 1rem;
+    }
+    .signUpBtn {
+      background: #ff4820;
+      border-radius: 5px;
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+      padding: 16px 45px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
